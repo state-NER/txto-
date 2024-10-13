@@ -1,0 +1,32 @@
+# مثال لاستخدام TextoLang
+
+{!txto star}
+{Title Component}
+    {titleText} My Game Title
+{endTitleComponent}
+
+{Story Component}
+    {storyText} In a world full of challenges, heroes arise to conquer the unknown.
+{endStoryComponent}
+
+{Button Component}
+    {componentId} primaryButton
+    {buttonText} Click Me
+{endButtonComponent}
+
+{Image Component}
+    {imageSource} assets/example-image.jpg
+{endImageComponent}
+
+{Video Component}
+    {videoSource} assets/example-video.mp4
+{endVideoComponent}
+
+{Audio Component}
+    {audioSource} assets/example-audio.mp3
+{endAudioComponent}
+
+{PDF Component}
+    {pdfSource} assets/example.pdf
+{endPDFComponent}
+{End of Script}
